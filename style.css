@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Itim', cursive;
+    font-family: 'Pacifico', cursive;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    background: blueviolet;
+}
+.container{
+    width: 500px;
+    height: 350px;
+    background-color: #fff;
+    border-radius: 20px;
+    display: flex;
+    position: absolute;
+    left: 34%;
+    top: 28%;
+    box-shadow: 10px 15px rgb(97, 97, 97);
+       
+   
+}
+.container h1{
+    font-size: 18px;
+    font-weight: 700;
+    position: relative;
+    top: 6%;
+    left: 30%;
+    color: rgb(168, 163, 163);
+   
+
+}
+
+#quote{
+ 
+    position: absolute;
+    top: 25%;
+    left: 12%;
+    width: 400px;
+    font-weight: 700;
+    color: #333;
+}
+#quote::before,#quote::after{
+    content: '"';
+}
+#author{
+    position:absolute;
+    top: 58%;
+    right: 5%;
+    font-weight: 600;
+   
+}
+#author::before{
+    content: 'BY--"';
+}
+#author::after{
+    content: '"';
+}
+
+.container button{
+    width: 80px;
+    font-size: 12px;
+    height: 40px;
+    position: relative;
+    top: 75%;
+    right: 15%;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background: transparent;
+    margin: 20px;
+    cursor: pointer;
+    font-weight: 770;
+    transition: .7s;
+    background: rgb(231, 230, 230);
+}
+.container button:hover{
+    
+    background-color: rgb(58, 3, 255);
+    color: #fff;
+}
